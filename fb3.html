@@ -1,0 +1,367 @@
+<html>
+<head>
+  <title>Facebook</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <style type="text/css">
+    body{
+      background: linear-gradient(to bottom right,white, #bcbdc4);
+      height:4000px;
+    }
+    .header1{
+      position: fixed;
+      width: 100%;
+      height: 60px;
+      background: #142170;
+      top:0;
+      left:0;
+      color:white;
+      z-index:7;
+ }
+   .ctrl{
+    height:35px!important;
+    width:400px!important;
+    margin-left:10px;
+   }
+      ul li{
+       list-style-type: none;
+       display: inline-block;
+       line-height: 80px;
+       margin-top: -10px;
+     }
+      ul li{
+        float:left;
+        margin-right: 20px;
+     }
+     ul li a{
+      text-decoration: none;
+      color:white;
+      padding: 20px;
+
+     }
+     a:hover{
+      color:white;
+     }
+      .header1 li{
+          border-right: 1px solid grey;
+      }
+
+      .pop1{
+          left:240px;
+          position: absolute;
+          width:500px;
+          height: 210px;
+          -webkit-box-shadow:0 3px 8px rgba(0,0,0,.25);
+          margin-left: -225px;
+      }
+      .pop2{
+         left:240px;
+          position: absolute;
+          width:458px;
+          height: 210px;
+          -webkit-box-shadow:0 3px 8px rgba(0,0,0,.25);
+          margin-left:70px;
+          margin-left: -100px;
+      }
+     .post1{
+        left:240px;
+        position: absolute;
+        background: white;
+        width:500px;
+        height:450px;
+        border-radius: 3px;
+         -webkit-box-shadow:0 3px 8px rgba(0,0,0,.25);
+         padding-top: 5px;
+         padding-left: 5px;
+        margin-left: -225px;
+     }
+     .post2{
+         left:240px;
+          position: absolute;
+          width:458px;
+          height: 450px;
+          -webkit-box-shadow:0 3px 8px rgba(0,0,0,.25);
+          margin-left:70px;
+          margin-left: -100px;
+     }
+      .update{
+        color:#1b6192;
+        font-size: 20px;
+        text-align: center;
+      }
+        .btn{
+          left:450px;
+          top:170px;
+          width:85px;
+          height: 30px;
+          float:right;
+          margin-top: -8px;
+        }
+       .bt1{
+           border-radius: 4px/4px;
+           background: #142170;
+           font-size: 15px;
+           outline: none;
+           color:white;
+       }
+      .txt{
+        width:500px;
+           }
+        .para{
+           color:#1b6192;
+           word-spacing: 35px;
+           text-align: center;
+           text-decoration: none;
+        }
+       a:hover{
+        color:blue;
+       }
+      .rom{
+        margin-left: 2px;
+        margin-top: -7px;
+      }
+
+
+      .fb-profile-block {
+  margin: auto;
+  position: relative;
+  width:100%;
+}
+.cover-container{
+    background: url(code.jpg);
+    width:87%;
+    
+}
+.fb-profile-block-thumb{
+  display: block;
+  height: 315px;
+  overflow: hidden;
+  position: relative;
+  text-decoration: none;
+
+}
+.fb-profile-block-menu {
+  border: 1px solid #d3d6db;
+  border-radius: 0 0 3px 3px;
+}
+.profile-img a{
+    bottom: 15px;
+    box-shadow: none;
+  display: block;
+  left: 15px;
+  padding:1px;
+  position: absolute;
+  height: 160px;
+  width: 160px;
+  background: rgba(0, 0, 0, 0.3) none repeat scroll 0 0;
+  z-index:9;
+}
+.profile-img img {
+  background-color: #fff;
+  border-radius: 2px;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.07);
+  height:158px;
+  padding: 5px;
+  width:158px;
+}
+.profile-name {
+  bottom: 60px;
+  left: 200px;
+  position: absolute;
+}
+.profile-name h2 {
+  color: #fff;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 30px;
+  max-width: 275px;
+  position: relative;
+  text-transform: uppercase;
+}
+.fb-profile-block-menu{
+  height: 44px;
+  position: relative;
+  width:87%;
+  overflow:hidden;
+ }
+.block-menu {
+  clear: right;
+  padding-left: 205px;
+}
+.block-menu ul{
+  margin:0;
+  padding:0;
+}
+.block-menu ul li{
+  display:inline-block;
+}
+.block-menu ul li a {
+  border-right: 1px solid #e9eaed;
+  float: left;
+  font-size: 14px;
+  font-weight: bold;
+  height: 42px;
+  line-height: 3.0;
+  padding: 0 17px;
+  position: relative;
+  vertical-align: middle;
+  white-space: nowrap;
+  color:#4b4f56;
+  text-transform:capitalize;
+}
+.block-menu ul li:first-child a{
+  border-left: 1px solid #e9eaed;
+}
+  </style>
+</head>
+<body>
+
+<div class="header1"> 
+  <div class="row">
+    <div style="margin-top:7px; margin-left: 180px;">
+      <img src="fbb3.jpg" height="50" width="50">
+    </div>
+    <div>
+      
+      <input type="text" class="form-control ctrl" style="margin-top: 15px;" placeholder="search here.........">
+      
+    </div>
+           <ul>
+             <li><a href="">Home</a></li>
+              <li><a href="">Profile</a></li>
+               <li><a href="">Message</a></li>
+               <li><a href="activ.html">Activity Log</a></li>
+           </ul>
+           <form action="fb2.html" method="post">
+          <button class="btn btn-primary btn-sm" style="margin-top:16px;">Logout</button>
+          </form>
+    </div>
+</div>
+
+      <div class="container">
+    <div class="row">
+        <div class="col-md-12">
+            <div class="fb-profile-block">
+                <div class="fb-profile-block-thumb cover-container"></div>
+                <div class="profile-img">
+                    <a href="#">
+                        <img src="gunu.jpg" alt="" title="" class="gunu">        
+                    </a>
+                </div>
+                <div class="profile-name">
+                    <h2>Soubhagya swain</h2>
+                </div>
+                
+                <div class="fb-profile-block-menu">
+                    <div class="block-menu">
+                        <ul>
+                            <li><a href="#">Timeline</a></li>
+                            <li><a href="#">about</a></li>
+                            <li><a href="#">Friends</a></li>
+                            <li><a href="#">Photos</a></li>
+                            <li><a href="#">More...</a></li>
+                        </ul>
+                    </div>
+                   
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+      
+     <div class="container">
+       <div class="row">
+           <div class="col-md-4">
+               <div class="pop1">
+                <div class="update">update status/add photos/create album<hr></div> 
+                
+                    <div><textarea placeholder="whats on ur mind.." class="txt"></textarea></div>
+                <br><hr> 
+                 <div class="btn"><button class="btn btn-primary bt1">Post</button></div>  
+                
+                
+               </div>
+           </div>
+            <div class="col-md-5">
+                <div class="pop2">
+                     <h5><b>Photos</b></h5>
+                    <div class="row rom">
+                         <img src="m1.jpg" height="70px" width="150">
+                          <img src="m2.jpg" height="70px" width="150">
+                           <img src="m3.jpg" height="70px" width="150">
+                    </div><hr>
+                     <div class="row rom">
+                         <img src="m4.jpg" height="70px" width="150">
+                          <img src="m5.jpg" height="70px" width="150">
+                           <img src="m6.jpg" height="70px" width="150">
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-3"></div>
+      </div>
+
+     <br><br><br><br><br><br><br><br><br><br><br>
+     <form action="edit.html" method="post" name="myform">
+       <div class="row">
+        
+            <div class="col-md-4">
+               <div class="post1">
+                   <img src="intro.jpg" width="50" height="50"><b style="color:black;">Intro</b><br>
+                      <i class="material-icons" style="font-size:36px; margin-left:200px;">mms</i><br>
+
+                       <p style="text-align: center; color:#1b6192;">Add a short bio to tell people more about yourself.</p>
+                           <p style="text-align: center;"><a href="#">Add Bio</a></p>
+
+<i class='fa fa-graduation-cap'style='font-size:20px'>Studied Mca<a href="#"style="font-size:15px;"><b><span id="txt1">Trident Academy of Technology</span></b></a></i><br>
+<i class='fa fa-graduation-cap' style='font-size:20px'>Studied Bca <a href="#" style="font-size: 15px;"><b><span id="txt2">Trident Academy Of Technology</span></b></a></i>
+ <i class='fa fa-graduation-cap' style='font-size:20px'>Studied 12th <a href="#" style="font-size: 15px;"><b><span>SSJ Mohavidyalaya(Bhubaneswar)</span></b></a></i>
+<i class='fa fa-graduation-cap' style='font-size:20px'>Went to <a href="#" style="font-size: 15px;"><b><span>Manijanga High School(Cuttack)</span></b></a></i><br>
+<i class='fa fa-home' style='font-size:22px'>Lives in <a href="#" style="font-size: 15px;"><b><span id="txt3">Banglore(ckb layout),Karnataka</span></b></a></i> <br>   
+                        
+        <i class='fa fa-map-marker' style='font-size:22px'>From <a href="#" style="font-size: 15px;"><b><span id="txt4">Bhubaneswar(jagatsinghpur,mspur,indrpagoan!!!!!),odisha......!!</span></b></a></i> <br>
+
+      <i class='fa fa-heart' style='font-size:22px'><a href="#" style="font-size: 15px;"><b><span id="txt5">Single</span></b></a></i> <hr>
+
+                      <input type="submit" class="btn btn-success" value="Edit" style="margin-right:80px;" onclick="editpage()">
+               </div>
+            </div>
+          </form>
+            <div class="col-md-8">
+                <div class="post2">
+                    <div class="gunu"><img src="me.jpg" width="458" height="400"></div>
+                    <p class="para"><a href="#">Like  Share  Comment</a></p><hr>
+                </div>
+            </div>
+      </div>
+     
+   </div>
+
+      <script>
+        var mm = localStorage.getItem("textvalue");
+         document.getElementById("txt1").innerHTML=mm;
+
+         var mm1 = localStorage.getItem("textvalue1");
+         document.getElementById("txt2").innerHTML=mm1;
+
+
+         var mm2 = localStorage.getItem("textvalue2");
+         document.getElementById("txt3").innerHTML=mm2;
+
+         var mm3 = localStorage.getItem("textvalue3");
+         document.getElementById("txt4").innerHTML=mm3;
+
+         var mm4 = localStorage.getItem("textvalue4");
+         document.getElementById("txt5").innerHTML=mm4;
+      </script>
+</body>
+</html>
